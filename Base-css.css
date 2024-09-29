@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(63,63,63);
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigation{
+    background-color: gray;
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+li{
+    display: inline-block;
+    margin-inline: 2.5%;
+    background-color: black;
+    border: 0.2rem white solid;
+    border-radius: 0.4rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+li#home a{
+    color: white;
+    text-decoration: underlines;
+    cursor: default;
+    display: block;
+    padding: 0.9rem 2rem;
+    margin-inline: 1%;
+}
+a:hover, li#home a:hover{
+    text-decoration: underline;
+    color: white;
+}
+a:active, li#home a:active{
+    text-decoration: underline;
+    color: gray;
+}

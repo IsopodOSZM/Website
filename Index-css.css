@@ -1,0 +1,31 @@
+.test1{
+    background-color: blue;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+}
+.test2{
+    position: relative;
+    background-color: green;
+    width: 30vh;
+    height: 30vh;
+}
+.test3{
+    position: static;
+    background-color: purple;
+    width: 40vh;
+    height: 40vh;
+    top: 100px;
+    right: 50%;
+
+}
+body{
+    height: 300vh;
+}
+#flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
